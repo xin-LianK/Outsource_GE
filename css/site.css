@@ -7,6 +7,9 @@ ul,li{
     padding: 0;
     list-style: none;
 }
+body{
+    min-width: 1000px;
+}
 .container {
     padding-right: 15px;
     padding-left: 15px;

@@ -30,8 +30,8 @@
             </div>
         </nav>
     </header>
-    <div class="container">
-        <section class="item">
+    <div class="banner">
+        <section class="item" id="banner_box">
             <div class="itemL">
                 <div>
                     <p>还信用卡</p>
@@ -103,7 +103,8 @@
                 </div>
             </div>
         </section>
-
+    </div>
+    <div class="container">
         <section class="item_four">
             <h1 class="line_title">
                 你是否遇到这样的烦恼
@@ -405,12 +406,19 @@
             <div class="declare_first"></div>
         </section>
     </div>
-    <footer >
-        <div  class="container">
-            <p >Copyright© 2016-2016 上海皓为商务咨询有限公司 版权所有 沪ICP备10016101号-3</p>
-            <div ><img  alt="" src="../../../assets/image/icon_footer.png"> 沪公网安备 31011002001801号</div>
+    <footer>
+        <div class="container">
+            <p>Copyright© 2016-2016 上海皓为商务咨询有限公司 版权所有 沪ICP备10016101号-3</p>
+            <div>
+                <img alt="" src="../../../assets/image/icon_footer.png"> 沪公网安备 31011002001801号</div>
         </div>
     </footer>
 </body>
+<script>
+    window.onload = function () {
+        var banner = document.getElementById('banner_box');
+        banner.style.height = window.innerHeight + 'px';
+    }
+</script>
 
 </html>

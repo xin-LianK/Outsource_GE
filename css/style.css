@@ -25,6 +25,8 @@ section {
     flex: 0 1 25%;
 }
 
+/* 标题样式 */
+
 .line_title {
     font-size: 22px;
     font-family: '微软雅黑';
@@ -39,6 +41,8 @@ section {
     background: #3cceb5;
     margin: 24px auto 0 auto;
 }
+
+/* 标题样式 */
 
 /* 头部开始 */
 
@@ -619,18 +623,23 @@ section.item_six li .default>div {
 section.item_six li:nth-child(1) .default>div {
     background: url(../img/six/ADVANTAGE_icon1.png) center center no-repeat;
 }
+
 section.item_six li:nth-child(2) .default>div {
     background: url(../img/six/ADVANTAGE_icon2.png) center center no-repeat;
 }
+
 section.item_six li:nth-child(3) .default>div {
     background: url(../img/six/ADVANTAGE_icon3.png) center center no-repeat;
 }
+
 section.item_six li:nth-child(4) .default>div {
     background: url(../img/six/ADVANTAGE_icon4.png) center center no-repeat;
 }
+
 section.item_six li:nth-child(5) .default>div {
     background: url(../img/six/ADVANTAGE_icon5.png) center center no-repeat;
 }
+
 section.item_six li:nth-child(6) .default>div {
     background: url(../img/six/ADVANTAGE_icon6.png) center center no-repeat;
 }
@@ -708,6 +717,97 @@ section.item_six li:hover .checked {
 /* 第六部分结束 */
 
 /* 第七部分开始 */
+
+section.item_seven {
+    padding-top: 50px;
+    background: url(../img/seven/sup_bg.png) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+}
+
+section.item_seven ul {
+    padding: 50px 0 100px;
+}
+
+section.item_seven .line_title {
+    font-size: 22px;
+    font-family: '微软雅黑';
+    color: #fff;
+    text-align: center;
+}
+
+section.item_seven .line_title .line_icon {
+    display: block;
+    width: 44px;
+    height: 3px;
+    background: #3cceb5;
+    margin: 24px auto 0 auto;
+}
+
+section.item_seven ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.item_seven ul li:not(:nth-child(2)) {
+    flex: 0 1 25%;
+    width: 262px;
+    background: #fff;
+    border-radius: 6px;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 50px 0 100px;
+}
+
+section.item_seven ul li:not(:nth-child(2))>div:nth-child(1) {
+    margin-bottom: 20px;
+}
+
+section.item_seven ul li:not(:nth-child(2))>div:nth-child(2) {
+    padding-bottom: 39px;
+    border-bottom: 1px dashed #d5d5d5;
+}
+
+section.item_seven ul li:not(:nth-child(2))>div:nth-child(2) h3 {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #333;
+}
+
+section.item_seven ul li:not(:nth-child(2))>div:nth-child(3) {
+    border-bottom: 1px dashed #d5d5d5;
+    padding: 20px 0;
+    margin: 0 23px;
+}
+
+section.item_seven ul li:not(:nth-child(2))>div:nth-child(4) {
+    border-bottom: 1px dashed #d5d5d5;
+    padding: 20px 0;
+    margin: 0 23px;
+}
+
+section.item_seven ul li:not(:nth-child(2))>div:nth-child(5) {
+    margin: 0 23px;
+    padding: 20px 0;
+}
+
+section.item_seven ul li:nth-child(2) {
+    flex: 0 1 25%;
+}
+
+section.item_seven ul li:nth-child(2) div {
+    margin-bottom: 10px;
+    width: 70%;
+    font-size: 14px;
+    margin: 0 auto;
+    color: #dcdcdc;
+    border: 1px solid #575757;
+    border-radius: 6px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
 
 /* 第七部分结束 */
 
